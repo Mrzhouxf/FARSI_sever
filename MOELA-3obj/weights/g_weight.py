@@ -36,14 +36,14 @@ with open('sirui_weight5_n.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerows(neighborhoods)
     
-# with open('weight4.csv', newline='') as f:
-#      reader = csv.reader(f)
-#      data = list(reader)
-# for i in range(len(data)):
-#     data[i] = [float(j) for j in data[i]]
+with open('weight4.csv', newline='') as f:
+     reader = csv.reader(f)
+     data = list(reader)
+for i in range(len(data)):
+    data[i] = [float(j) for j in data[i]]
 
-# with open('weight4_n.csv', newline='') as f:
-#      reader = csv.reader(f)
-#      datan = list(reader)
-# for i in range(len(datan)):
-#     datan[i] = [int(j) for j in datan[i]]
+with open('weight4_n.csv', newline='') as f:
+     reader = csv.reader(f)
+     datan = list(reader)
+for i in range(len(datan)):
+    datan[i] = [int(j) for j in datan[i]]
